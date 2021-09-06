@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hicoders</title>
 </head>
 <body>
+    <!--bu sayfada hizalamaları yapabilmek için table tagını kullandım-->
     <main>
-    <header>
+    <header id="Logo">
         <h4><b style="color: red;">hi</b>/coders</h4>
     </header>
 
     <header>
-        <table width=100%>
+        <table style="width: 100%;">
         <tr>
             <th></th>
             <th><h2>Welcome to Hicoders Web Programming Course <h2></th>
@@ -21,13 +22,16 @@
         </tr>
         </table>
     </header>
-    <section>
+
+    <section id="anaresimbölümü">
         <img src="./anaresim1.png" alt="anasayfa-resmi" width="100%" height="30%">
     </section>
-    <section>
+
+    <section id="table.ve.fiedselt" style="background-color: lightgrey;">
         <table style="width: 100%; height: 100px;">
             <tr>
-                <td><fieldset>
+                <td>
+                    <fieldset class="orta.liste.kısmı">
                     <legend>What contains Web basic?</legend>
                     <ul>
                         <li>HTML</li>
@@ -41,9 +45,10 @@
                         <li>Githup</li>
                         <li>IT basic concepts <em>(computers , networks, operating systms)</em></li>
                     </ul>
-                </fieldset></td>
+                    </fieldset>
+                </td>
                 <td rowspan="2">
-                    <article>
+                    <article aria-colspan="orta.arikel.kısmı">
                         <h3>Our motto is : share knowledge and promote people.</h3>
                         <br>
                         <h4>Web Basic</h4>
@@ -63,11 +68,11 @@
                         <br>main module that teachs programming beyond the basic.
 
                     </article>
-                </td>
-                <td></td>
+                
             </tr>
             <tr>
-                <td><fieldset>
+                <td>
+                    <fieldset class="liste">
                     <details open>
                         <summary>What contains Web basic?</summary>
                         <ol>
@@ -85,40 +90,39 @@
                             <li>Basic of test</li>
                         </ol>
                     </details>
-                </fieldset></td>
+                    </fieldset>
+                </td>
             </tr>
         </table>
     </section>
+    <br>
 
-    <section>
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/fsyBD9MLLeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section class="video">
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/fsyBD9MLLeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 600px;padding-left: 350px;"></iframe>
     </section>
-    <footer>
-        <table width=100%>
+    <br>
+    <footer class="footer">
+        <table style="width: 100%; background-color: lightgrey;">
             <tfoot>
                 <td></td>
                 <td></td>
                 <td></td>
-                <td style="padding-left: 200px;">
-                    <pre>
-                        <strong>Our Course Phases</strong>
-                        <br>
-                        &#x03BF; Web Fundamentals
-                        &#x03BF; Web Programming
-                     &#x03BF; Fullstack Web Programming  
-                        &#x03BF; Capstone Project
-                    </pre>
+                <td style="padding-left: 400px;">
+                    
+                        <strong>Our Course Phases</strong><br>
+                        
+                        &#x03BF; Web Fundamentals <br>
+                        &#x03BF; Web Programming <br>
+                     &#x03BF; Fullstack Web Programming  <br>
+                        &#x03BF; Capstone Project <br>
                 </td>
                 <td style="padding-right: 400px;">
-                    <pre>
                         <strong>Contact</strong>
                         <br>
-                        <a href="mailto:info@hicoders.com">info@hicoders.com</a>
-                        <a href="+41010223230">+41010+223230</a>
-                        &#9830; Schafaussen 470,
+                        <a href="mailto:info@hicoders.com">&#9993;info@hicoders.com</a><br>
+                        <a href="tel:+41010223230">&#9742;+41010223230</a><br>
+                        &#9830; Schafaussen 470<br>
                         8052 Zurich
-                        
-                    </pre>
                 </td>
                 <td></td>
                 <td></td>
